@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light"
     tools:context=".ReadNewsActivity">
 
-    <androidx.fragment.app.FragmentContainerView android:name="app.testing.com.practicalwork.ItemFragment"
+    <ContainerView android:name="app.testing.com.practicalwork.ItemFragment"
         android:id="@+id/viewer"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
