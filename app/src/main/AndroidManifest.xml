@@ -19,7 +19,7 @@
         <activity
             android:name=".ReadNewsActivity"
             android:label="@string/title_activity_read_news"
-            android:theme="@style/Theme.PracticalWork.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light"/>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
