@@ -149,6 +149,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(
                                         new LatLng(lastKnownLocation.getLatitude(),
                                                 lastKnownLocation.getLongitude()), DEFAULT_ZOOM));
+                                mMap.setMyLocationEnabled(true);
                             }
 
                             // Move the camera instantly to Sydney with a zoom of 15.
